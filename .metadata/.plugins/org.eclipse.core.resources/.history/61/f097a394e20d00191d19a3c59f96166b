@@ -26,7 +26,7 @@ public class Bank {
 		r.show();
 		while(true)
 		{
-			System.out.println("\nEnter the correct choice from below: \n\t 1 : BALANCE INQUIRY\n\t 2 : WITHDRAW\n\t 3 : DEPOSIT\n\t 4 : QUIT");
+			System.out.println("\nEnter the choice from below: \n\t 1 : BALANCE INQUIRY\n\t 2 : WITHDRAW\n\t 3 : DEPOSIT\n\t 4 : QUIT");
 			System.out.println("Choose the correct code from above:");
 			code=sc.nextInt();
 			switch(code)
