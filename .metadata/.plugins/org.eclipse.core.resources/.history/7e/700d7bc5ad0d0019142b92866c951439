@@ -1,0 +1,25 @@
+package liable;
+import java.util.*;
+import java.lang.*;
+public class Responsibility 
+{
+	public static long accountno;
+	public static String name;
+	public void input() throws InterruptedException
+	{
+		System.out.println("\t\t\t\t\t\t\t****            SIMPLE_BANK_APP            ****\n\n");
+		System.out.println("**Person who enters below requirements is responsible for the balance variation in the account.");
+		System.out.println("** MINIMUM ACCOUNT BALANCE SHOULD BE 1000.\n");
+		Thread.sleep(1000);//Pause for 5 seconds.
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter account holder name :");
+		name=sc.nextLine();
+		System.out.println("Enter Account number:");
+		accountno=sc.nextInt();
+		
+	}
+	public void show()
+	{
+		System.out.println("WELCOME "+name+" , YOUR ACCOUNT NUMBER IS "+accountno+" .");
+	}
+}

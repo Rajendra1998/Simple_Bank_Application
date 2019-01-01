@@ -1,0 +1,10 @@
+package liable.debit;
+import java.util.*;
+public class Debit 
+{
+	public int debit;
+	public int showDebit()
+	{
+		Scanner sc=new 
+	}
+}

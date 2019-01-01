@@ -1,0 +1,30 @@
+import Asset.*;
+import Asset.Credit.*;
+import Liable.*;
+import Liable.Debit.*;
+import java.util.*;
+
+public class Bank {
+	public static int balance;
+	public static int credit;
+	public static int code;
+	public static int debit;
+	public static int code2;
+	public static int code1;
+	public static int code3;
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		Responsibility r =new Responsibility();
+		Amount a=new Amount();
+		Credit c=new Credit();
+		Debit d=new Debit();
+		balance a=a.showAmount(1000);
+		r.input();
+		r.show();
+		
+
+	}
+
+}
